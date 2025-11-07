@@ -1,0 +1,12 @@
+package practice;
+
+public class CoinFlipExperiment {
+	public static void main(String[] args) {
+		double flip = Math.random();
+		if (flip < 0.505) {
+			System.out.println("Heads");
+		} else {
+			System.out.println("Tails");
+		}
+	}
+}

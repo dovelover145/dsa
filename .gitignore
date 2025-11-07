@@ -1,0 +1,105 @@
+# =======================================
+# UNIVERSAL BUILD OUTPUTS
+# =======================================
+build/
+bin/
+out/
+dist/
+target/
+Debug/
+Release/
+
+# Compiled binaries / objects
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.elf
+*.class
+*.beam
+*.hi
+*.dyn_hi
+*.dyn_o
+
+# =======================================
+# LANGUAGE-SPECIFIC
+# =======================================
+
+# --- Java ---
+*.jar
+*.war
+*.ear
+
+# --- Haskell ---
+.stack-work/
+dist/
+dist-newstyle/
+cabal.project.local
+.ghc.environment.*
+
+# --- Prolog ---
+*.qlf
+*.pl~
+
+# --- Erlang ---
+_build/
+.eunit/
+.rebar3/
+deps/
+erl_crash.dump
+*.plt
+
+# --- C / C++ ---
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+*.gcno
+*.gcda
+*.gcov
+*.pdb
+*.dSYM/
+
+# =======================================
+# IDEs / EDITORS
+# =======================================
+
+# Eclipse
+.project
+.classpath
+.metadata/
+.settings/
+
+# VSCode
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# CLion / JetBrains
+.idea/
+cmake-build-*/
+
+# =======================================
+# OS / TEMP FILES
+# =======================================
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Vim / Emacs
+*~
+*.swp
+*.swo
+.#*
+
+# =======================================
+# END
+# =======================================
